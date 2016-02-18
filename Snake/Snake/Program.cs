@@ -22,6 +22,13 @@ namespace Snake
             VerticalLine lineV2 = new VerticalLine(0, 24, 78, '+');
             lineV2.Drow();
 
+
+
+
+            Point p = new Point(4,5,'*');
+            Snake snake = new Snake(p,4,Direction.RIGHT);
+            snake.Drow();
+
             Console.ReadLine();
         }
 
